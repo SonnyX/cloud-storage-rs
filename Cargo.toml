@@ -38,7 +38,7 @@ bytes =            { version = "1.4.0",   default-features = false }
 async-trait =      { version = "0.1.68",  default-features = false }
 # Optional features
 openssl =          { version = "0.10.52", default-features = false, optional = true }
-ring =             { version = "0.16.20", default-features = false, optional = true }
+ring =             { version = "0.17.5", default-features = false, features = ["std"], optional = true }
 pem =              { version = "2.0.1",   default-features = false, optional = true, features = ["std"] }
 dotenv =           { version = "0.15.0",    default-features = false, optional = true }
 
